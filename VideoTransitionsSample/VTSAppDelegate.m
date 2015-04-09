@@ -1,18 +1,18 @@
 //
-//  AppDelegate.m
+//  VTSAppDelegate.m
 //  VideoTransitionsSample
 //
 //  Created by Ruslan Shevtsov on 4/9/15.
 //  Copyright (c) 2015 iQueSoft. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "VTSAppDelegate.h"
 
-@interface AppDelegate ()
+@interface VTSAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation VTSAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {

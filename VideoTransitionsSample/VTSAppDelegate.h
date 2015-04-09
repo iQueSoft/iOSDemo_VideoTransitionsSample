@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  VTSAppDelegate.h
 //  VideoTransitionsSample
 //
 //  Created by Ruslan Shevtsov on 4/9/15.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface VTSAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
