@@ -1,0 +1,26 @@
+PODS:
+  - CocoaLumberjack (2.0.0):
+    - CocoaLumberjack/Default
+    - CocoaLumberjack/Extensions
+  - CocoaLumberjack/Core (2.0.0)
+  - CocoaLumberjack/Default (2.0.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.0.0):
+    - CocoaLumberjack/Default
+  - GPUImage (0.1.6)
+  - MBProgressHUD (0.9.1)
+  - UIAlertController+Blocks (0.9)
+
+DEPENDENCIES:
+  - CocoaLumberjack
+  - GPUImage
+  - MBProgressHUD
+  - UIAlertController+Blocks
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: a6f77d987d65dc7ba86b0f84db7d0b9084f77bcb
+  GPUImage: 4675ce4a5370ca92fcea8623b2a08b8f0c51b940
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  UIAlertController+Blocks: b48c673ff60726da468b32ab21bbc7683512d45b
+
+COCOAPODS: 0.34.4

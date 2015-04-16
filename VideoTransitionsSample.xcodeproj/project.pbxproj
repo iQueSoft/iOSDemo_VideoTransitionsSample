@@ -13,6 +13,34 @@
 		96268FB31AD693F5000A77BD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96268FB11AD693F5000A77BD /* LaunchScreen.xib */; };
 		96268FBF1AD693F5000A77BD /* VideoTransitionsSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96268FBE1AD693F5000A77BD /* VideoTransitionsSampleTests.m */; };
 		96268FCB1AD6955A000A77BD /* VTSStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96268FCA1AD6955A000A77BD /* VTSStoryboard.storyboard */; };
+		96268FD11AD697FE000A77BD /* VTSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96268FD01AD697FE000A77BD /* VTSBaseViewController.m */; };
+		96268FD71AD6A187000A77BD /* VTSVideoButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 96268FD61AD6A187000A77BD /* VTSVideoButton.m */; };
+		963B6E131ADD086400D56ED9 /* VTSPinwheelRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 963B6E121ADD086400D56ED9 /* VTSPinwheelRenderer.m */; };
+		963B6E171ADD0F2A00D56ED9 /* VTSSimpleFlipRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 963B6E161ADD0F2A00D56ED9 /* VTSSimpleFlipRenderer.m */; };
+		963B6E1B1ADD11DF00D56ED9 /* VTSWindRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 963B6E1A1ADD11DF00D56ED9 /* VTSWindRenderer.m */; };
+		963B6E1F1ADD13DA00D56ED9 /* VTSFoldRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 963B6E1E1ADD13DA00D56ED9 /* VTSFoldRenderer.m */; };
+		963B6E231ADD170200D56ED9 /* VTSStarWipeRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 963B6E221ADD170200D56ED9 /* VTSStarWipeRenderer.m */; };
+		963B6E271ADD1DDF00D56ED9 /* VTSTransitionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 963B6E261ADD1DDF00D56ED9 /* VTSTransitionsViewController.m */; };
+		963B6E2B1ADD2F3B00D56ED9 /* VTSTransitionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 963B6E2A1ADD2F3B00D56ED9 /* VTSTransitionButton.m */; };
+		963B6E2F1ADD2F8F00D56ED9 /* preview_video_1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 963B6E2D1ADD2F8F00D56ED9 /* preview_video_1.mp4 */; };
+		963B6E301ADD2F8F00D56ED9 /* preview_video_2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 963B6E2E1ADD2F8F00D56ED9 /* preview_video_2.mp4 */; };
+		964163561AD7C44B00AA4988 /* FRSGPUImageWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964163551AD7C44B00AA4988 /* FRSGPUImageWrapper.swift */; };
+		964163591AD7C48700AA4988 /* FRSFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964163581AD7C48700AA4988 /* FRSFileManager.swift */; };
+		9641635D1AD7C4D300AA4988 /* VTSMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9641635C1AD7C4D300AA4988 /* VTSMainViewController.m */; };
+		964163641AD8062B00AA4988 /* UIImagePickerController+DelegateBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 964163631AD8062B00AA4988 /* UIImagePickerController+DelegateBlocks.m */; };
+		965D661D1ADE666500074CF9 /* PagedFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 965D661C1ADE666500074CF9 /* PagedFlowView.m */; };
+		965D66211ADE91F100074CF9 /* VTSPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 965D66201ADE91F100074CF9 /* VTSPlayerView.m */; };
+		965D66251ADE929700074CF9 /* VTSIgnoreTouchesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 965D66241ADE929700074CF9 /* VTSIgnoreTouchesView.m */; };
+		965D66291ADE9EDE00074CF9 /* VTSAutoReplayPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 965D66281ADE9EDE00074CF9 /* VTSAutoReplayPlayer.m */; };
+		96D9FFA41ADC49B70001F4F3 /* APLVideoEditor..m in Sources */ = {isa = PBXBuildFile; fileRef = 96D9FFA31ADC49B70001F4F3 /* APLVideoEditor..m */; };
+		96D9FFA81ADC4A250001F4F3 /* APLCustomVideoCompositor.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D9FFA71ADC4A250001F4F3 /* APLCustomVideoCompositor.m */; };
+		96D9FFAB1ADC4A300001F4F3 /* APLCustomVideoCompositionInstruction.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D9FFAA1ADC4A300001F4F3 /* APLCustomVideoCompositionInstruction.m */; };
+		96D9FFAF1ADC4A8F0001F4F3 /* APLOpenGLRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D9FFAE1ADC4A8F0001F4F3 /* APLOpenGLRenderer.m */; };
+		96D9FFB31ADC533C0001F4F3 /* VTSBusinessFacade.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D9FFB21ADC533C0001F4F3 /* VTSBusinessFacade.m */; };
+		96D9FFB61ADC5ACF0001F4F3 /* VTSBaseViewController+ShwAlertOK.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D9FFB51ADC5ACF0001F4F3 /* VTSBaseViewController+ShwAlertOK.m */; };
+		96F8E01E1ADEF2E200D95259 /* VTSPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F8E01D1ADEF2E200D95259 /* VTSPlayerViewController.m */; };
+		96F8E0221ADEF9C400D95259 /* DurationStringFromTimeIntervalString.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F8E0211ADEF9C400D95259 /* DurationStringFromTimeIntervalString.m */; };
+		C636FF0E2367095838C49C93 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 77942628B81745673F6D1D52 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +54,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		77942628B81745673F6D1D52 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8782A8A7736DBD33A8379138 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		96268F9F1AD693F5000A77BD /* VideoTransitionsSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoTransitionsSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96268FA31AD693F5000A77BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96268FA41AD693F5000A77BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -37,6 +67,59 @@
 		96268FBD1AD693F5000A77BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96268FBE1AD693F5000A77BD /* VideoTransitionsSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoTransitionsSampleTests.m; sourceTree = "<group>"; };
 		96268FCA1AD6955A000A77BD /* VTSStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = VTSStoryboard.storyboard; sourceTree = "<group>"; };
+		96268FCF1AD697FE000A77BD /* VTSBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTSBaseViewController.h; sourceTree = "<group>"; };
+		96268FD01AD697FE000A77BD /* VTSBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTSBaseViewController.m; sourceTree = "<group>"; };
+		96268FD51AD6A187000A77BD /* VTSVideoButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTSVideoButton.h; sourceTree = "<group>"; };
+		96268FD61AD6A187000A77BD /* VTSVideoButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTSVideoButton.m; sourceTree = "<group>"; };
+		963B6E111ADD086400D56ED9 /* VTSPinwheelRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTSPinwheelRenderer.h; sourceTree = "<group>"; };
+		963B6E121ADD086400D56ED9 /* VTSPinwheelRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTSPinwheelRenderer.m; sourceTree = "<group>"; };
+		963B6E151ADD0F2A00D56ED9 /* VTSSimpleFlipRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTSSimpleFlipRenderer.h; sourceTree = "<group>"; };
+		963B6E161ADD0F2A00D56ED9 /* VTSSimpleFlipRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTSSimpleFlipRenderer.m; sourceTree = "<group>"; };
+		963B6E191ADD11DF00D56ED9 /* VTSWindRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTSWindRenderer.h; sourceTree = "<group>"; };
+		963B6E1A1ADD11DF00D56ED9 /* VTSWindRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTSWindRenderer.m; sourceTree = "<group>"; };
+		963B6E1D1ADD13DA00D56ED9 /* VTSFoldRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTSFoldRenderer.h; sourceTree = "<group>"; };
+		963B6E1E1ADD13DA00D56ED9 /* VTSFoldRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTSFoldRenderer.m; sourceTree = "<group>"; };
+		963B6E211ADD170200D56ED9 /* VTSStarWipeRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTSStarWipeRenderer.h; sourceTree = "<group>"; };
+		963B6E221ADD170200D56ED9 /* VTSStarWipeRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTSStarWipeRenderer.m; sourceTree = "<group>"; };
+		963B6E251ADD1DDF00D56ED9 /* VTSTransitionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTSTransitionsViewController.h; sourceTree = "<group>"; };
+		963B6E261ADD1DDF00D56ED9 /* VTSTransitionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTSTransitionsViewController.m; sourceTree = "<group>"; };
+		963B6E291ADD2F3B00D56ED9 /* VTSTransitionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTSTransitionButton.h; sourceTree = "<group>"; };
+		963B6E2A1ADD2F3B00D56ED9 /* VTSTransitionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTSTransitionButton.m; sourceTree = "<group>"; };
+		963B6E2D1ADD2F8F00D56ED9 /* preview_video_1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = preview_video_1.mp4; sourceTree = "<group>"; };
+		963B6E2E1ADD2F8F00D56ED9 /* preview_video_2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = preview_video_2.mp4; sourceTree = "<group>"; };
+		9641634B1AD7C22400AA4988 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		9641634C1AD7C2D500AA4988 /* VideoTransitionsSample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VideoTransitionsSample-Bridging-Header.h"; sourceTree = "<group>"; };
+		964163551AD7C44B00AA4988 /* FRSGPUImageWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FRSGPUImageWrapper.swift; sourceTree = "<group>"; };
+		964163581AD7C48700AA4988 /* FRSFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FRSFileManager.swift; sourceTree = "<group>"; };
+		9641635B1AD7C4D300AA4988 /* VTSMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTSMainViewController.h; sourceTree = "<group>"; };
+		9641635C1AD7C4D300AA4988 /* VTSMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTSMainViewController.m; sourceTree = "<group>"; };
+		964163621AD8062B00AA4988 /* UIImagePickerController+DelegateBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImagePickerController+DelegateBlocks.h"; sourceTree = "<group>"; };
+		964163631AD8062B00AA4988 /* UIImagePickerController+DelegateBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImagePickerController+DelegateBlocks.m"; sourceTree = "<group>"; };
+		965D661B1ADE666500074CF9 /* PagedFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PagedFlowView.h; sourceTree = "<group>"; };
+		965D661C1ADE666500074CF9 /* PagedFlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PagedFlowView.m; sourceTree = "<group>"; };
+		965D661F1ADE91F100074CF9 /* VTSPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTSPlayerView.h; sourceTree = "<group>"; };
+		965D66201ADE91F100074CF9 /* VTSPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTSPlayerView.m; sourceTree = "<group>"; };
+		965D66231ADE929700074CF9 /* VTSIgnoreTouchesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTSIgnoreTouchesView.h; sourceTree = "<group>"; };
+		965D66241ADE929700074CF9 /* VTSIgnoreTouchesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTSIgnoreTouchesView.m; sourceTree = "<group>"; };
+		965D66271ADE9EDE00074CF9 /* VTSAutoReplayPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTSAutoReplayPlayer.h; sourceTree = "<group>"; };
+		965D66281ADE9EDE00074CF9 /* VTSAutoReplayPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTSAutoReplayPlayer.m; sourceTree = "<group>"; };
+		96D9FFA21ADC49B70001F4F3 /* APLVideoEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLVideoEditor.h; sourceTree = "<group>"; };
+		96D9FFA31ADC49B70001F4F3 /* APLVideoEditor..m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLVideoEditor..m; sourceTree = "<group>"; };
+		96D9FFA61ADC4A250001F4F3 /* APLCustomVideoCompositor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLCustomVideoCompositor.h; sourceTree = "<group>"; };
+		96D9FFA71ADC4A250001F4F3 /* APLCustomVideoCompositor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLCustomVideoCompositor.m; sourceTree = "<group>"; };
+		96D9FFA91ADC4A300001F4F3 /* APLCustomVideoCompositionInstruction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLCustomVideoCompositionInstruction.h; sourceTree = "<group>"; };
+		96D9FFAA1ADC4A300001F4F3 /* APLCustomVideoCompositionInstruction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLCustomVideoCompositionInstruction.m; sourceTree = "<group>"; };
+		96D9FFAD1ADC4A8F0001F4F3 /* APLOpenGLRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLOpenGLRenderer.h; sourceTree = "<group>"; };
+		96D9FFAE1ADC4A8F0001F4F3 /* APLOpenGLRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLOpenGLRenderer.m; sourceTree = "<group>"; };
+		96D9FFB11ADC533C0001F4F3 /* VTSBusinessFacade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTSBusinessFacade.h; sourceTree = "<group>"; };
+		96D9FFB21ADC533C0001F4F3 /* VTSBusinessFacade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTSBusinessFacade.m; sourceTree = "<group>"; };
+		96D9FFB41ADC5ACF0001F4F3 /* VTSBaseViewController+ShwAlertOK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VTSBaseViewController+ShwAlertOK.h"; sourceTree = "<group>"; };
+		96D9FFB51ADC5ACF0001F4F3 /* VTSBaseViewController+ShwAlertOK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VTSBaseViewController+ShwAlertOK.m"; sourceTree = "<group>"; };
+		96F8E01C1ADEF2E200D95259 /* VTSPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTSPlayerViewController.h; sourceTree = "<group>"; };
+		96F8E01D1ADEF2E200D95259 /* VTSPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTSPlayerViewController.m; sourceTree = "<group>"; };
+		96F8E0201ADEF9C400D95259 /* DurationStringFromTimeInterval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DurationStringFromTimeInterval.h; sourceTree = "<group>"; };
+		96F8E0211ADEF9C400D95259 /* DurationStringFromTimeIntervalString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DurationStringFromTimeIntervalString.m; sourceTree = "<group>"; };
+		9D3DDEB4386A0A42578100E0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C636FF0E2367095838C49C93 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +147,8 @@
 				96268FA11AD693F5000A77BD /* VideoTransitionsSample */,
 				96268FBB1AD693F5000A77BD /* VideoTransitionsSampleTests */,
 				96268FA01AD693F5000A77BD /* Products */,
+				F464866D22970607AD5DA1B2 /* Pods */,
+				A64518DBDC95516253F9D577 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,6 +164,9 @@
 		96268FA11AD693F5000A77BD /* VideoTransitionsSample */ = {
 			isa = PBXGroup;
 			children = (
+				964163601AD805F500AA4988 /* Helpers */,
+				9641634F1AD7C2E000AA4988 /* Business layer */,
+				96268FCC1AD69730000A77BD /* UI layer */,
 				96268FC81AD6946E000A77BD /* Resources */,
 				96268FA61AD693F5000A77BD /* VTSAppDelegate.h */,
 				96268FA71AD693F5000A77BD /* VTSAppDelegate.m */,
@@ -93,6 +182,8 @@
 			children = (
 				96268FA31AD693F5000A77BD /* Info.plist */,
 				96268FA41AD693F5000A77BD /* main.m */,
+				9641634B1AD7C22400AA4988 /* PrefixHeader.pch */,
+				9641634C1AD7C2D500AA4988 /* VideoTransitionsSample-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -117,6 +208,7 @@
 		96268FC81AD6946E000A77BD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				963B6E2C1ADD2F5C00D56ED9 /* Videos */,
 				96268FC91AD69534000A77BD /* Storyboards */,
 			);
 			path = Resources;
@@ -130,6 +222,317 @@
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
+		96268FCC1AD69730000A77BD /* UI layer */ = {
+			isa = PBXGroup;
+			children = (
+				96268FD21AD69EB7000A77BD /* Custom elements */,
+				96268FCD1AD69747000A77BD /* ViewControllers */,
+			);
+			path = "UI layer";
+			sourceTree = "<group>";
+		};
+		96268FCD1AD69747000A77BD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				96F8E01B1ADEF1D700D95259 /* PlayerViewController */,
+				963B6E241ADD1DB200D56ED9 /* TransitionsViewController */,
+				9641635A1AD7C4AE00AA4988 /* MainViewController */,
+				96268FCE1AD697D4000A77BD /* BaseViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		96268FCE1AD697D4000A77BD /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				96268FCF1AD697FE000A77BD /* VTSBaseViewController.h */,
+				96268FD01AD697FE000A77BD /* VTSBaseViewController.m */,
+				96D9FFB41ADC5ACF0001F4F3 /* VTSBaseViewController+ShwAlertOK.h */,
+				96D9FFB51ADC5ACF0001F4F3 /* VTSBaseViewController+ShwAlertOK.m */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		96268FD21AD69EB7000A77BD /* Custom elements */ = {
+			isa = PBXGroup;
+			children = (
+				965D66221ADE927D00074CF9 /* IgnoreTouchesView */,
+				965D661E1ADE91BA00074CF9 /* PlayerView */,
+				965D661A1ADE663F00074CF9 /* PagedFlowView */,
+				96268FD31AD69EFE000A77BD /* Buttons */,
+			);
+			path = "Custom elements";
+			sourceTree = "<group>";
+		};
+		96268FD31AD69EFE000A77BD /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				963B6E281ADD26D100D56ED9 /* TransitionButton */,
+				96268FD41AD6A15C000A77BD /* VideoButton */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		96268FD41AD6A15C000A77BD /* VideoButton */ = {
+			isa = PBXGroup;
+			children = (
+				96268FD51AD6A187000A77BD /* VTSVideoButton.h */,
+				96268FD61AD6A187000A77BD /* VTSVideoButton.m */,
+			);
+			path = VideoButton;
+			sourceTree = "<group>";
+		};
+		963B6E0F1ADD07FE00D56ED9 /* Transition renderers */ = {
+			isa = PBXGroup;
+			children = (
+				963B6E201ADD16D200D56ED9 /* StarWipe */,
+				963B6E1C1ADD13BA00D56ED9 /* Fold */,
+				963B6E181ADD11BC00D56ED9 /* Wind */,
+				963B6E141ADD0D4E00D56ED9 /* SimpleFlip */,
+				963B6E101ADD083000D56ED9 /* Pinwheel */,
+			);
+			path = "Transition renderers";
+			sourceTree = "<group>";
+		};
+		963B6E101ADD083000D56ED9 /* Pinwheel */ = {
+			isa = PBXGroup;
+			children = (
+				963B6E111ADD086400D56ED9 /* VTSPinwheelRenderer.h */,
+				963B6E121ADD086400D56ED9 /* VTSPinwheelRenderer.m */,
+			);
+			path = Pinwheel;
+			sourceTree = "<group>";
+		};
+		963B6E141ADD0D4E00D56ED9 /* SimpleFlip */ = {
+			isa = PBXGroup;
+			children = (
+				963B6E151ADD0F2A00D56ED9 /* VTSSimpleFlipRenderer.h */,
+				963B6E161ADD0F2A00D56ED9 /* VTSSimpleFlipRenderer.m */,
+			);
+			path = SimpleFlip;
+			sourceTree = "<group>";
+		};
+		963B6E181ADD11BC00D56ED9 /* Wind */ = {
+			isa = PBXGroup;
+			children = (
+				963B6E191ADD11DF00D56ED9 /* VTSWindRenderer.h */,
+				963B6E1A1ADD11DF00D56ED9 /* VTSWindRenderer.m */,
+			);
+			path = Wind;
+			sourceTree = "<group>";
+		};
+		963B6E1C1ADD13BA00D56ED9 /* Fold */ = {
+			isa = PBXGroup;
+			children = (
+				963B6E1D1ADD13DA00D56ED9 /* VTSFoldRenderer.h */,
+				963B6E1E1ADD13DA00D56ED9 /* VTSFoldRenderer.m */,
+			);
+			path = Fold;
+			sourceTree = "<group>";
+		};
+		963B6E201ADD16D200D56ED9 /* StarWipe */ = {
+			isa = PBXGroup;
+			children = (
+				963B6E211ADD170200D56ED9 /* VTSStarWipeRenderer.h */,
+				963B6E221ADD170200D56ED9 /* VTSStarWipeRenderer.m */,
+			);
+			path = StarWipe;
+			sourceTree = "<group>";
+		};
+		963B6E241ADD1DB200D56ED9 /* TransitionsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				963B6E251ADD1DDF00D56ED9 /* VTSTransitionsViewController.h */,
+				963B6E261ADD1DDF00D56ED9 /* VTSTransitionsViewController.m */,
+			);
+			path = TransitionsViewController;
+			sourceTree = "<group>";
+		};
+		963B6E281ADD26D100D56ED9 /* TransitionButton */ = {
+			isa = PBXGroup;
+			children = (
+				963B6E291ADD2F3B00D56ED9 /* VTSTransitionButton.h */,
+				963B6E2A1ADD2F3B00D56ED9 /* VTSTransitionButton.m */,
+			);
+			path = TransitionButton;
+			sourceTree = "<group>";
+		};
+		963B6E2C1ADD2F5C00D56ED9 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				963B6E2D1ADD2F8F00D56ED9 /* preview_video_1.mp4 */,
+				963B6E2E1ADD2F8F00D56ED9 /* preview_video_2.mp4 */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		9641634F1AD7C2E000AA4988 /* Business layer */ = {
+			isa = PBXGroup;
+			children = (
+				965D66261ADE9EB200074CF9 /* AutoReplayPlayer */,
+				96D9FFB01ADC53030001F4F3 /* BusinessFacade */,
+				96D9FFA11ADC495F0001F4F3 /* VideoEditor */,
+				964163571AD7C48700AA4988 /* FileManager */,
+				964163541AD7C44B00AA4988 /* GPUImageWrapper */,
+			);
+			path = "Business layer";
+			sourceTree = "<group>";
+		};
+		964163541AD7C44B00AA4988 /* GPUImageWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				964163551AD7C44B00AA4988 /* FRSGPUImageWrapper.swift */,
+			);
+			path = GPUImageWrapper;
+			sourceTree = "<group>";
+		};
+		964163571AD7C48700AA4988 /* FileManager */ = {
+			isa = PBXGroup;
+			children = (
+				964163581AD7C48700AA4988 /* FRSFileManager.swift */,
+			);
+			path = FileManager;
+			sourceTree = "<group>";
+		};
+		9641635A1AD7C4AE00AA4988 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9641635B1AD7C4D300AA4988 /* VTSMainViewController.h */,
+				9641635C1AD7C4D300AA4988 /* VTSMainViewController.m */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		964163601AD805F500AA4988 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				96F8E01F1ADEF9C400D95259 /* DurationStringFromTimeInterval */,
+				964163611AD8060500AA4988 /* UIImagePickerController+DelegateBlocks */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		964163611AD8060500AA4988 /* UIImagePickerController+DelegateBlocks */ = {
+			isa = PBXGroup;
+			children = (
+				964163621AD8062B00AA4988 /* UIImagePickerController+DelegateBlocks.h */,
+				964163631AD8062B00AA4988 /* UIImagePickerController+DelegateBlocks.m */,
+			);
+			path = "UIImagePickerController+DelegateBlocks";
+			sourceTree = "<group>";
+		};
+		965D661A1ADE663F00074CF9 /* PagedFlowView */ = {
+			isa = PBXGroup;
+			children = (
+				965D661B1ADE666500074CF9 /* PagedFlowView.h */,
+				965D661C1ADE666500074CF9 /* PagedFlowView.m */,
+			);
+			path = PagedFlowView;
+			sourceTree = "<group>";
+		};
+		965D661E1ADE91BA00074CF9 /* PlayerView */ = {
+			isa = PBXGroup;
+			children = (
+				965D661F1ADE91F100074CF9 /* VTSPlayerView.h */,
+				965D66201ADE91F100074CF9 /* VTSPlayerView.m */,
+			);
+			path = PlayerView;
+			sourceTree = "<group>";
+		};
+		965D66221ADE927D00074CF9 /* IgnoreTouchesView */ = {
+			isa = PBXGroup;
+			children = (
+				965D66231ADE929700074CF9 /* VTSIgnoreTouchesView.h */,
+				965D66241ADE929700074CF9 /* VTSIgnoreTouchesView.m */,
+			);
+			path = IgnoreTouchesView;
+			sourceTree = "<group>";
+		};
+		965D66261ADE9EB200074CF9 /* AutoReplayPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				965D66271ADE9EDE00074CF9 /* VTSAutoReplayPlayer.h */,
+				965D66281ADE9EDE00074CF9 /* VTSAutoReplayPlayer.m */,
+			);
+			path = AutoReplayPlayer;
+			sourceTree = "<group>";
+		};
+		96D9FFA11ADC495F0001F4F3 /* VideoEditor */ = {
+			isa = PBXGroup;
+			children = (
+				96D9FFAC1ADC4A3F0001F4F3 /* OpenGL renderer */,
+				96D9FFA51ADC4A020001F4F3 /* Custom compositors */,
+				96D9FFA21ADC49B70001F4F3 /* APLVideoEditor.h */,
+				96D9FFA31ADC49B70001F4F3 /* APLVideoEditor..m */,
+			);
+			path = VideoEditor;
+			sourceTree = "<group>";
+		};
+		96D9FFA51ADC4A020001F4F3 /* Custom compositors */ = {
+			isa = PBXGroup;
+			children = (
+				96D9FFA91ADC4A300001F4F3 /* APLCustomVideoCompositionInstruction.h */,
+				96D9FFAA1ADC4A300001F4F3 /* APLCustomVideoCompositionInstruction.m */,
+				96D9FFA61ADC4A250001F4F3 /* APLCustomVideoCompositor.h */,
+				96D9FFA71ADC4A250001F4F3 /* APLCustomVideoCompositor.m */,
+			);
+			path = "Custom compositors";
+			sourceTree = "<group>";
+		};
+		96D9FFAC1ADC4A3F0001F4F3 /* OpenGL renderer */ = {
+			isa = PBXGroup;
+			children = (
+				963B6E0F1ADD07FE00D56ED9 /* Transition renderers */,
+				96D9FFAD1ADC4A8F0001F4F3 /* APLOpenGLRenderer.h */,
+				96D9FFAE1ADC4A8F0001F4F3 /* APLOpenGLRenderer.m */,
+			);
+			path = "OpenGL renderer";
+			sourceTree = "<group>";
+		};
+		96D9FFB01ADC53030001F4F3 /* BusinessFacade */ = {
+			isa = PBXGroup;
+			children = (
+				96D9FFB11ADC533C0001F4F3 /* VTSBusinessFacade.h */,
+				96D9FFB21ADC533C0001F4F3 /* VTSBusinessFacade.m */,
+			);
+			path = BusinessFacade;
+			sourceTree = "<group>";
+		};
+		96F8E01B1ADEF1D700D95259 /* PlayerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				96F8E01C1ADEF2E200D95259 /* VTSPlayerViewController.h */,
+				96F8E01D1ADEF2E200D95259 /* VTSPlayerViewController.m */,
+			);
+			path = PlayerViewController;
+			sourceTree = "<group>";
+		};
+		96F8E01F1ADEF9C400D95259 /* DurationStringFromTimeInterval */ = {
+			isa = PBXGroup;
+			children = (
+				96F8E0201ADEF9C400D95259 /* DurationStringFromTimeInterval.h */,
+				96F8E0211ADEF9C400D95259 /* DurationStringFromTimeIntervalString.m */,
+			);
+			path = DurationStringFromTimeInterval;
+			sourceTree = "<group>";
+		};
+		A64518DBDC95516253F9D577 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77942628B81745673F6D1D52 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F464866D22970607AD5DA1B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D3DDEB4386A0A42578100E0 /* Pods.debug.xcconfig */,
+				8782A8A7736DBD33A8379138 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +540,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96268FC21AD693F5000A77BD /* Build configuration list for PBXNativeTarget "VideoTransitionsSample" */;
 			buildPhases = (
+				B7DB38E4FCB5F2F6A193D24C /* Check Pods Manifest.lock */,
 				96268F9B1AD693F5000A77BD /* Sources */,
 				96268F9C1AD693F5000A77BD /* Frameworks */,
 				96268F9D1AD693F5000A77BD /* Resources */,
+				8DA6D749D402A64169E4B645 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -211,9 +616,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				963B6E2F1ADD2F8F00D56ED9 /* preview_video_1.mp4 in Resources */,
 				96268FB31AD693F5000A77BD /* LaunchScreen.xib in Resources */,
 				96268FB01AD693F5000A77BD /* Images.xcassets in Resources */,
 				96268FCB1AD6955A000A77BD /* VTSStoryboard.storyboard in Resources */,
+				963B6E301ADD2F8F00D56ED9 /* preview_video_2.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,13 +633,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8DA6D749D402A64169E4B645 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7DB38E4FCB5F2F6A193D24C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		96268F9B1AD693F5000A77BD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				964163561AD7C44B00AA4988 /* FRSGPUImageWrapper.swift in Sources */,
+				963B6E2B1ADD2F3B00D56ED9 /* VTSTransitionButton.m in Sources */,
+				96D9FFB61ADC5ACF0001F4F3 /* VTSBaseViewController+ShwAlertOK.m in Sources */,
+				96D9FFA81ADC4A250001F4F3 /* APLCustomVideoCompositor.m in Sources */,
+				964163591AD7C48700AA4988 /* FRSFileManager.swift in Sources */,
+				96F8E0221ADEF9C400D95259 /* DurationStringFromTimeIntervalString.m in Sources */,
+				96D9FFB31ADC533C0001F4F3 /* VTSBusinessFacade.m in Sources */,
+				964163641AD8062B00AA4988 /* UIImagePickerController+DelegateBlocks.m in Sources */,
+				96D9FFAB1ADC4A300001F4F3 /* APLCustomVideoCompositionInstruction.m in Sources */,
+				965D66251ADE929700074CF9 /* VTSIgnoreTouchesView.m in Sources */,
 				96268FA81AD693F5000A77BD /* VTSAppDelegate.m in Sources */,
+				96D9FFA41ADC49B70001F4F3 /* APLVideoEditor..m in Sources */,
+				963B6E231ADD170200D56ED9 /* VTSStarWipeRenderer.m in Sources */,
+				965D66291ADE9EDE00074CF9 /* VTSAutoReplayPlayer.m in Sources */,
 				96268FA51AD693F5000A77BD /* main.m in Sources */,
+				96268FD11AD697FE000A77BD /* VTSBaseViewController.m in Sources */,
+				963B6E171ADD0F2A00D56ED9 /* VTSSimpleFlipRenderer.m in Sources */,
+				96268FD71AD6A187000A77BD /* VTSVideoButton.m in Sources */,
+				963B6E1F1ADD13DA00D56ED9 /* VTSFoldRenderer.m in Sources */,
+				963B6E271ADD1DDF00D56ED9 /* VTSTransitionsViewController.m in Sources */,
+				9641635D1AD7C4D300AA4988 /* VTSMainViewController.m in Sources */,
+				963B6E1B1ADD11DF00D56ED9 /* VTSWindRenderer.m in Sources */,
+				965D66211ADE91F100074CF9 /* VTSPlayerView.m in Sources */,
+				963B6E131ADD086400D56ED9 /* VTSPinwheelRenderer.m in Sources */,
+				965D661D1ADE666500074CF9 /* PagedFlowView.m in Sources */,
+				96D9FFAF1ADC4A8F0001F4F3 /* APLOpenGLRenderer.m in Sources */,
+				96F8E01E1ADEF2E200D95259 /* VTSPlayerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +750,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEFINES_MODULE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -303,6 +769,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_MODULE_NAME = VideoTransitionsSample;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -326,6 +793,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEFINES_MODULE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -337,6 +805,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_MODULE_NAME = VideoTransitionsSample;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -344,23 +813,34 @@
 		};
 		96268FC31AD693F5000A77BD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D3DDEB4386A0A42578100E0 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/VideoTransitionsSample/PrefixHeader.pch";
 				INFOPLIST_FILE = VideoTransitionsSample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VideoTransitionsSample/VideoTransitionsSample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		96268FC41AD693F5000A77BD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8782A8A7736DBD33A8379138 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/VideoTransitionsSample/PrefixHeader.pch";
 				INFOPLIST_FILE = VideoTransitionsSample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VideoTransitionsSample/VideoTransitionsSample-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -417,6 +897,7 @@
 				96268FC41AD693F5000A77BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96268FC51AD693F5000A77BD /* Build configuration list for PBXNativeTarget "VideoTransitionsSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +906,7 @@
 				96268FC71AD693F5000A77BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

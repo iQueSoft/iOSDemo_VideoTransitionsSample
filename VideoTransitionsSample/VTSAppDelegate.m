@@ -8,6 +8,9 @@
 
 #import "VTSAppDelegate.h"
 
+// Loggers
+#import "DDTTYLogger.h"
+
 @interface VTSAppDelegate ()
 
 @end
@@ -17,6 +20,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    setenv("XcodeColors", "YES", 0);
+    
+    // Configure CocoaLumberjack
+    [DDLog addLogger:[DDTTYLogger sharedInstance] withLevel:LOG_LEVEL_DEBUG];
+    
+    // Enable Colors
+    [[DDTTYLogger sharedInstance] setColorsEnabled:YES];
+    
+    DDLogDebug(@"Start log");
+    
     return YES;
 }
 
