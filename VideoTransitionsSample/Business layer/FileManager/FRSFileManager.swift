@@ -17,8 +17,8 @@ class FRSFileManager: NSObject {
         }
 
         var urlForVideo:NSURL? = nil
-        var timestamp:Double = NSDate().timeIntervalSince1970 * 1000
-        var path:String = NSTemporaryDirectory() + "Videos/video-" + String(format:"%f", timestamp) + ".MOV"
+        let timestamp:Double = NSDate().timeIntervalSince1970 * 1000
+        let path:String = NSTemporaryDirectory() + "Videos/video-" + String(format:"%f", timestamp) + ".MOV"
         urlForVideo = NSURL(fileURLWithPath: path)
         return urlForVideo
 
@@ -26,14 +26,19 @@ class FRSFileManager: NSObject {
     
     func clearVideosDirectory() -> Bool {
     
-        var path:String = NSTemporaryDirectory() + "/Videos/"
-        var isDirectory:Bool = NSFileManager.defaultManager().fileExistsAtPath(path)
+        let path:String = NSTemporaryDirectory() + "/Videos/"
+        let isDirectory:Bool = NSFileManager.defaultManager().fileExistsAtPath(path)
         
         if (isDirectory == false) {
             return true;
         }
         
-        return NSFileManager.defaultManager().removeItemAtPath(path, error: nil)
+        do {
+            try NSFileManager.defaultManager().removeItemAtPath(path)
+            return true
+        } catch _ {
+            return false
+        }
         
     }
     
@@ -46,7 +51,11 @@ class FRSFileManager: NSObject {
         var error: NSError?
         
         if (NSFileManager.defaultManager().fileExistsAtPath(fileURL!.path!)) {
-            NSFileManager.defaultManager().removeItemAtPath(fileURL!.path!, error: &error)
+            do {
+                try NSFileManager.defaultManager().removeItemAtPath(fileURL!.path!)
+            } catch let error1 as NSError {
+                error = error1
+            }
         }
         
         return error
@@ -64,14 +73,19 @@ class FRSFileManager: NSObject {
     private func checkVideosDirectory() -> Bool {
         
         var path:String = NSTemporaryDirectory() + "/Videos/"
-        var isDirectory:Bool = NSFileManager.defaultManager().fileExistsAtPath(path)
+        let isDirectory:Bool = NSFileManager.defaultManager().fileExistsAtPath(path)
         
         if (isDirectory == true) {
             return true;
         }
         
         path = NSTemporaryDirectory() + "/Videos"
-        var url: NSURL = NSURL(fileURLWithPath: path)!
-        return NSFileManager.defaultManager().createDirectoryAtURL(url, withIntermediateDirectories: true, attributes: nil, error: nil)
+        let url: NSURL = NSURL(fileURLWithPath: path)
+        do {
+            try NSFileManager.defaultManager().createDirectoryAtURL(url, withIntermediateDirectories: true, attributes: nil)
+            return true
+        } catch _ {
+            return false
+        }
     }
 }

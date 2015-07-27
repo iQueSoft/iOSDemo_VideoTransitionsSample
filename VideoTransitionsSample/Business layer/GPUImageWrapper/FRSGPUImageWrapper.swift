@@ -87,7 +87,7 @@ class FRSGPUImageWrapper: NSObject {
     func filterForType(filterType:FRSFilter) -> GPUImageOutput? {
         switch (filterType) {
         case .Brightness:
-            var filter:GPUImageBrightnessFilter = GPUImageBrightnessFilter()
+            let filter:GPUImageBrightnessFilter = GPUImageBrightnessFilter()
             filter.brightness = 0.5
             return filter
             
@@ -101,7 +101,7 @@ class FRSGPUImageWrapper: NSObject {
             return GPUImageColorInvertFilter()
             
         case .Pixellated:
-            var filter:GPUImagePixellateFilter = GPUImagePixellateFilter()
+            let filter:GPUImagePixellateFilter = GPUImagePixellateFilter()
             filter.fractionalWidthOfAPixel = 0.01
             return filter
             
@@ -149,7 +149,7 @@ class FRSGPUImageWrapper: NSObject {
         
         self.isRecorded = true
         
-        var url: NSURL? = FRSFileManager().urlForVideo()
+        let url: NSURL? = FRSFileManager().urlForVideo()
         
         FRSFileManager().removeFile(self.currentVideoURL)
         self.currentVideoURL = url
@@ -203,7 +203,7 @@ class FRSGPUImageWrapper: NSObject {
     }
     
     func timerDidFire(timer:NSTimer!) {
-        var progress:Double = CMTimeGetSeconds(self.movieWriter.duration)
+        let progress:Double = CMTimeGetSeconds(self.movieWriter.duration)
         self.delegate?.recordingProgress(progress)
     }
 

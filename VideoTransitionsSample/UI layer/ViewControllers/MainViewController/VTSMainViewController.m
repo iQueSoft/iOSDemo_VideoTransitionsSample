@@ -97,7 +97,7 @@
 #pragma mark -
 #pragma mark Orientation
 
-- (NSUInteger)supportedInterfaceOrientations {
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations {
     return UIInterfaceOrientationMaskLandscape;
 }
 
